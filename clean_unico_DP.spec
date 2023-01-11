@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['clean_unico_CTB.py'],
+    ['clean_unico_DP.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='clean_unico_CTB',
+    name='clean_unico_DP',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
